@@ -1,0 +1,33 @@
+:root {
+    --color-1: #ecfdf5; /* 50 */
+    --color-2: #d0fbe5; /* 100 */
+    --color-3: #a6f4d0; /* 200 */
+    --color-4: #6ce9b7; /* 300 */
+    --color-5: #31d69a; /* 400 */
+    --color-6: #0dbc82; /* 500 */
+    --color-7: #03986a; /* 600 */
+    --color-8: #027353; /* 700 */
+    --color-9: #056047; /* 800 */
+    --color-10: #054f3c; /* 900 */
+    --color-11: #012d22; /* 950 */ 
+    --color-12:#A0D9BE;
+    --color-13:#17A671;
+    --color-14:#252C59;
+    
+}
+
+.b-center{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.d-center{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+/* button */
+/*  */
+

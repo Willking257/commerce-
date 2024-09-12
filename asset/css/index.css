@@ -1,0 +1,166 @@
+@import url(class.css);
+
+.btn-green:hover {
+  background-color: #fff;
+  color: var(--color-7);
+  border: 1px solid var(--color-9);
+}
+.btn-green a:hover {
+  color: black;
+}
+.btn-green:hover {
+  background-color: #fff;
+  color: var(--color-7);
+  border: 1px solid var(--color-9);
+}
+.color_blue{
+  color: #252C59;
+}
+.btn-green {
+  background-color: var(--color-13);
+  color: var(--color-1);
+  border-bottom: 50px;
+  border: none;
+  padding: 10px 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.btn-black {
+  background-color: black;
+  color: var(--color-1);
+  border-bottom: 50px;
+  border: none;
+  padding: 10px 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.btn-black:hover {
+  background-color: #fff;
+  color: black;
+  border: 1px solid black;
+}
+
+/* color text */
+
+.fsss {
+  font-size: 50px;
+}
+.border-span {
+  border: 1px solid var(--color-7);
+}
+.banner-media {
+  display: block;
+}
+.fsss {
+  font-size: 3rem;
+}
+.color-slider{
+    background-color: #A0D9BE;
+}
+.image_third {
+  background-image: url(https://www.legalstart.fr/hs-fs/hubfs/Exemple%20business%20plan.jpg?width=456&height=228&name=Exemple%20business%20plan.jpg);
+  height: 150px;
+  width: 370px;
+}
+.btn_third span a {
+  padding: 3px 100px 15px 100px;
+}
+.box-shadow-third {
+  -webkit-box-shadow: 1.5px 2px 9.5px 8px #f0f0f0;
+  -moz-box-shadow: 1.5px 2px 9.5px 8px #f0f0f0;
+  box-shadow: 1.5px 2px 9.5px 8px #f0f0f0;
+}
+.white{
+    background-color: #fff;
+}
+/*  */
+.gap-div i{
+  gap: 4rem;
+}
+.chevron{
+  cursor: pointer;
+
+}
+
+
+.toggle-text {
+  max-height: 0; 
+  overflow: hidden; 
+  transition: max-height 0.9s ease-out; 
+  display: block; 
+  height: fit-content;
+}
+
+.toggle-text.expanded {
+  max-height: 500px;
+ 
+}
+
+
+.bx-chevron-down {
+  transition: transform 0.9s ease; 
+}
+
+.bxs-chevron-up {
+  transition: transform 0.9s ease; 
+}
+
+
+
+.config{
+  width: 60%;
+  margin: 20px auto;
+}
+.desann{
+  margin-top: 5rem;
+}
+.desann-1{
+  margin-top: 5rem;
+}
+.footer span a{
+  text-decoration: none;
+}
+.hov{
+  background-color: gray;
+  color: #fff;
+}
+.hov:hover{
+  background-color: yellow;
+  color: black;
+}
+/* entreprise css */
+.border-div{
+  width: 30rem;
+  background-color: #fff;
+}
+.fsss1 {
+  font-size: clamp(2rem, 2vw + 1rem, 3rem);
+}
+@media (max-width: 768px) {
+  .banner-media {
+    display: flex;
+    gap: 3rem;
+  }
+  .fsss {
+    font-size: 2rem;
+  }
+}
+ 
+.backgrnd  span img{
+  width:650px;
+  height:610px;
+}
+
+@media (max-width: 530px){
+  .backgrnd  span img{
+    width:400px;
+    height:250px;
+  }
+ 
+}
+
+/* Css for page about */
+
+.header-div{
+  padding-top: 6rem;
+}
